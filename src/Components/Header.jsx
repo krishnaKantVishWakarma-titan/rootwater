@@ -93,27 +93,26 @@ const Header = () => {
       {mobileMenuOpen && (
         <div className="lg:hidden bg-white absolute top-16 left-0 right-0 bg-cream z-50 px-6 py-5 shadow-md">
           <div className="flex flex-col space-y-4">
-            <a href="#" className="text-text-dark hover:opacity-80 py-2">
-              Manifesto
-            </a>
-            <a href="#" className="text-text-dark hover:opacity-80 py-2">
-              How it works
-            </a>
-            <a
-              href="#"
-              className="text-text-dark hover:opacity-80 py-2 flex items-center"
-            >
-              Pricing <span className="ml-1">🔥</span>
-            </a>
-            <a href="#" className="text-text-dark hover:opacity-80 py-2">
-              Country explorer
-            </a>
-            <a href="#" className="text-text-dark hover:opacity-80 py-2">
-              For partners
-            </a>
-            <a href="#" className="text-text-dark hover:opacity-80 py-2">
-              Company
-            </a>
+            {headerlinks.map((link, ind) => {
+              return (
+                <>
+                  {location.pathname === link.path ? (
+                    <Link
+                      key={ind}
+                      to={link.path}
+                      className="font-bold underline decoration-stone-900 decoration-2 underline-offset-4"
+                    >
+                      {link.name}
+                    </Link>
+                  ) : (
+                    <Link key={ind} to={link.path}>
+                      {link.name}
+                    </Link>
+                  )}
+                </>
+              );
+            })}
+
             <div className="pt-4 flex flex-col space-y-3">
               <button className="bg-stone-900 text-white rounded-md w-full py-2 px-4 hover:bg-gray-800">
                 Get started
