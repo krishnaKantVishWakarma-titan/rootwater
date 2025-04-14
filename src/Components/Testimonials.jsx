@@ -27,19 +27,19 @@ const Testimonials = () => {
   const testimonials = [
     {
       content:
-        "A friend recently told me about this app and it is a game changer for me! I was skeptical at first, but figured I'd give it a try. WOW WAS I AMAZED. The app is easy to use and hassle free. For all my fellow online shoppers- this app is for you!",
+        "We ordered custom water bottles for our corporate event, and they were a huge hit! The design was exactly what we wanted, and the quality was top-notch. Definitely will order again!",
       rating: 5,
       source: "App Store Review",
     },
     {
       content:
-        "This app is so easy to use! It's designed so well that I was able to seamlessly complete my returns. No packaging, taping, processing, printing.... all the things I hate to do!!!! So excited about this app. I highly recommend!!!",
+        "The custom bottles helped elevate our brand presence at the trade show. The quality of both the bottles and the printing was excellent. Our logo looked amazing, and attendees loved the personalized touch!",
       rating: 5,
       source: "App Store Review",
     },
     {
       content:
-        "In addition to this life-changing innovation, everyone on the RQ team is super-friendly and a pleasure to work with. I can't recommend ReturnQueen highly enough, and can't imagine life without it!",
+        "We’ve been ordering branded bottles for our office, and the service has been fantastic every time. Fast delivery, great quality, and the perfect customization options. Our team loves them!",
       rating: 5,
       source: "App Store Review",
     },
@@ -50,10 +50,11 @@ const Testimonials = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-text-dark">
-            What Our Customers Say
+            Voices Behind the Bottles
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            See why thousands of shoppers trust ReturnQueen with their returns
+            We don't just deliver water — we deliver experiences. Hear it from
+            those who’ve felt the difference.
           </p>
         </div>
 

@@ -19,18 +19,55 @@ export default function ProductsHeader() {
               {/*Title */}
               <div class="space-y-2 md:space-y-4">
                 <h2 className="text-4xl md:text-5xl font-bold text-text-dark mb-4 text-left">
-                  Discover our solutions
+                  Our Products
                 </h2>
                 <p className="text-xl text-text-dark text-left">
-                  Our suite of tools, built to fill your sales pipeline.
+                  Customized Water Bottles That Speak for Your Brand
                 </p>
               </div>
               {/*End Title */}
 
               {/*List */}
-              <ul class="space-y-2 sm:space-y-4">
+              <ul>
                 <li class="flex gap-x-3">
-                  <p className="text-text-dark mb-6">Descriptions</p>
+                  <p className="text-text-dark mb-6">
+                    At Root Water, we specialize in providing high-quality,
+                    customizable water bottles that are designed to enhance your
+                    brand’s visibility and leave a lasting impression. Our
+                    bottles are not just a functional product, but a branding
+                    tool that helps you stand out in any setting — from
+                    corporate events to office spaces and promotional giveaways.
+                  </p>
+                </li>
+                <li>
+                  <p className="text-text-dark mb-6">
+                    Each of our bottles is carefully crafted with durability and
+                    style in mind, offering a perfect balance of aesthetics and
+                    practicality. Whether you’re looking for sleek and modern
+                    designs or bottles with a more rustic, eco-friendly feel, we
+                    offer a variety of customization options to suit your
+                    brand’s unique identity. From logo printing to full-wrap
+                    designs, we ensure that your branding looks crisp,
+                    professional, and eye-catching.
+                  </p>
+                </li>
+                <li>
+                  <p className="text-text-dark mb-6">
+                    We understand that quality matters, which is why we source
+                    only the finest materials for our bottles. Our
+                    state-of-the-art purification process ensures that every sip
+                    is refreshing, while our bottles are designed to withstand
+                    everyday use. With our fast and reliable delivery service,
+                    you can count on us to provide your business with the best
+                    custom water bottles, delivered on time and ready to make an
+                    impact.
+                  </p>
+                </li>
+                <li>
+                  <p className="text-text-dark mb-6">
+                    Browse our range of products today and find the perfect
+                    bottle to elevate your brand!
+                  </p>
                 </li>
               </ul>
               {/*End List */}

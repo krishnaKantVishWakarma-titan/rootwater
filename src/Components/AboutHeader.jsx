@@ -19,18 +19,52 @@ export default function AboutHeader() {
               {/*Title */}
               <div class="space-y-2 md:space-y-4">
                 <h2 className="text-4xl md:text-5xl font-bold text-text-dark mb-4 text-left">
-                  Discover our solutions
+                  About Us
                 </h2>
                 <p className="text-xl text-text-dark text-left">
-                  Our suite of tools, built to fill your sales pipeline.
+                  Crafting Custom Bottles, Delivering Exceptional Brands
                 </p>
               </div>
               {/*End Title */}
 
               {/*List */}
-              <ul class="space-y-2 sm:space-y-4">
+              <ul>
                 <li class="flex gap-x-3">
-                  <p className="text-text-dark mb-6">Descriptions</p>
+                  <p className="text-text-dark mb-6">
+                    At Root Water, we believe that hydration is more than just
+                    about water — it’s about creating moments, promoting your
+                    brand, and making a lasting impact. Since our inception,
+                    we've been committed to providing businesses with
+                    high-quality, custom-labeled water bottles that reflect
+                    their unique identity. From small startups to large
+                    corporations, we help brands stand out with personalized
+                    bottles that leave a mark, whether at events, in the office,
+                    or on-the-go.
+                  </p>
+                </li>
+                <li>
+                  <p className="text-text-dark mb-6">
+                    We pride ourselves on our attention to detail, using only
+                    the best materials to create bottles that are as durable as
+                    they are stylish. Our advanced purification process ensures
+                    that every sip is refreshing, while our customization
+                    options allow you to add your logo, tagline, or design to
+                    make every bottle your own. We understand that quality and
+                    timely delivery are essential to your business, which is why
+                    we ensure that each bottle undergoes rigorous quality checks
+                    before reaching you.
+                  </p>
+                </li>
+                <li>
+                  <p className="text-text-dark mb-6">
+                    As a company driven by passion and innovation, we aim to be
+                    your trusted partner in branding, delivering not only a
+                    product but an experience. Whether you’re looking for
+                    bottles for your next event, office supplies, or corporate
+                    giveaways, we’re here to make sure your brand stays front
+                    and center, one sip at a time. Thank you for choosing us to
+                    help hydrate and promote your business!
+                  </p>
                 </li>
               </ul>
               {/*End List */}

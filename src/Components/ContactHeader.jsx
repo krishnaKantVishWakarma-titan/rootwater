@@ -19,18 +19,41 @@ export default function ContactHeader() {
               {/*Title */}
               <div class="space-y-2 md:space-y-4">
                 <h2 className="text-4xl md:text-5xl font-bold text-text-dark mb-4 text-left">
-                  Discover our solutions
+                  Contact Us
                 </h2>
                 <p className="text-xl text-text-dark text-left">
-                  Our suite of tools, built to fill your sales pipeline.
+                  We’d Love to Hear From You!
                 </p>
               </div>
               {/*End Title */}
 
               {/*List */}
-              <ul class="space-y-2 sm:space-y-4">
+              <ul>
                 <li class="flex gap-x-3">
-                  <p className="text-text-dark mb-6">Descriptions</p>
+                  <p className="text-text-dark mb-6">
+                    Whether you have a question, need help with your order, or
+                    just want to learn more about how our custom-labeled water
+                    bottles can elevate your brand, we’re here for you. At Root
+                    Water, we value open communication and quick support —
+                    because your satisfaction is our top priority.
+                  </p>
+                </li>
+                <li class="flex gap-x-3">
+                  <p className="text-text-dark mb-6">
+                    Reach out to us through the form below, give us a call, or
+                    drop us an email — whichever works best for you. Our
+                    friendly support team is always ready to assist with product
+                    information, design guidance, bulk pricing, delivery
+                    queries, and everything in between. We aim to respond as
+                    quickly as possible, ensuring that your experience with us
+                    is smooth from start to finish.
+                  </p>
+                </li>
+                <li class="flex gap-x-3">
+                  <p className="text-text-dark mb-6">
+                    Let’s create something amazing together — start the
+                    conversation today!
+                  </p>
                 </li>
               </ul>
               {/*End List */}

@@ -3,7 +3,7 @@ const HireManage = () => {
     {
       title: "Choose Your Bottle & Design",
       description:
-        "Browse our collection of premium quality bottles. Pick the size, style, and upload your custom banner or artwork — perfect for events, corporate gifts, or personal use.",
+        "Bring your brand to life with custom-labeled bottles that speak volumes. Choose from a variety of bottle styles and sizes, then add your logo, colors, and message. It’s branding made simple — and effective.",
       icon: (
         <div className="bg-white w-16 h-16 flex items-center justify-center">
           <svg
@@ -21,7 +21,7 @@ const HireManage = () => {
     {
       title: "Personalization & Purification",
       description:
-        "We print your design on the bottle using high-resolution, durable printing methods. Meanwhile, we fill each bottle with fresh, purified water that meets the highest safety standards.",
+        "Every bottle is personalized with your brand, but the quality goes deeper. We use advanced purification processes to ensure the water inside is as pure as the message on the outside.",
       icon: (
         <div className="bg-white w-16 h-16 flex items-center justify-center">
           <svg
@@ -39,17 +39,32 @@ const HireManage = () => {
     {
       title: "Quality Check & Packaging",
       description:
-        "Every bottle undergoes a strict quality check — from print clarity to water purity. After approval, we securely package your order to ensure it arrives in perfect condition.",
+        "We care about every detail. Each batch undergoes strict quality control and is packaged securely to ensure your bottles arrive fresh, flawless, and ready to impress.",
       icon: (
         <div className="bg-white w-16 h-16 flex items-center justify-center">
           <svg
+            width="48"
+            height="48"
+            viewBox="0 0 48 48"
+            fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            fill="#FFC107"
-            viewBox="0 0 24 24"
-            width="40"
-            height="40"
           >
-            <path d="M20.59 5.41 18.17 3 12 9.17 5.83 3 3.41 5.41 9.59 11.59 3.41 17.59 5.83 20 12 13.83 18.17 20 20.59 17.59 14.41 11.59z" />
+            <rect
+              x="8"
+              y="14"
+              width="32"
+              height="20"
+              rx="2"
+              stroke="#4F46E5"
+              stroke-width="4"
+            />
+            <path
+              d="M16 24L21 29L32 18"
+              stroke="#10B981"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
           </svg>
         </div>
       ),
@@ -57,7 +72,7 @@ const HireManage = () => {
     {
       title: "Fast & Safe Delivery",
       description:
-        "Your custom water bottles are shipped to your doorstep (or event location) through trusted logistics partners. Timely, safe, and ready to refresh!",
+        "Time matters — and so does safety. That’s why we promise fast dispatch and careful handling, so your branded bottles reach you fresh, flawless, and right when you need them.",
       icon: (
         <div className="bg-white w-16 h-16 flex items-center justify-center">
           <svg

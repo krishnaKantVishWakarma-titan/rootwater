@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
+import Logo from "../assets/logo/logo.png";
 
 const headerlinks = [
   {
@@ -40,9 +41,13 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex-shrink-0">
-          <a href="/" className="text-text-dark text-2xl font-bold">
-            rivermate
-          </a>
+          <Link
+            to="/"
+            className="text-text-dark text-2xl font-bold flex items-center"
+          >
+            <img src={Logo} alt="logo" width={75} />
+            {/* <span>Root Water</span> */}
+          </Link>
         </div>
 
         {/* Desktop Navigation */}

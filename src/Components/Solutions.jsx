@@ -60,7 +60,7 @@ const Solutions = () => {
 
         {/* Subheading */}
         <p className="text-xl text-text-dark text-center mb-16">
-          Our suite of tools, built to fill your sales pipeline.
+          Tailored Bottles for Every Event, Business, or Brand Moment.
         </p>
 
         {/* Solutions grid */}
